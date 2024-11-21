@@ -22,7 +22,8 @@ form {
     flex-direction: column;
 }
 
-input, button {
+input,
+button {
     margin: 10px 0;
     padding: 10px;
     border: 1px solid #ddd;
