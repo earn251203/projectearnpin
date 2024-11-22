@@ -55,8 +55,13 @@ body {
 }
 
 .name_event {
-    margin-right: 40%;
+    margin-right: 10%;
     text-wrap-mode: nowrap;
+}
+
+.p {
+    max-width: 100px;
+    word-wrap: break-word;
 }
 
 @media screen {
