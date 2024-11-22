@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ccccff;
+    color: rgb(255, 255, 255);
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 70px;
+}
+
+header nav a {
+    color: #333333;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.event-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    font-size: 32px;
+    border-radius: 5px;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 10px;
+
+}
+
+
+.carousel img {
+
+    height: 300px;
+    border-radius: 10px;
+
+   
+}
+
+.months {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.months span {
+    margin: 0 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: #333333;
+    border: 3px solid #ccccff;
+    border-radius: 10px;
+}
+
+.months span:hover {
+    background-color: #8383c4;
+    color: white;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 50px;
+}
+
+.event-item {
+    background: #ccccff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-item img {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+
+.event-item .event-details {
+    padding: 10px;
+    text-align: center;
+}
+
+.event-item .event-details h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333333;
+}
+
+.event-item .event-details p {
+    margin: 5px 0;
+    color: #333;
+}
