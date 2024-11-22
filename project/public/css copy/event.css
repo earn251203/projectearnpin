@@ -34,7 +34,6 @@ body {
 }
 
 
-/*data*/
 
 .data {
     display: flex;
@@ -46,7 +45,7 @@ body {
     width: 45%;
     margin-left: 40%;
 
-    
+
 }
 
 .icon {
@@ -65,5 +64,5 @@ body {
 }
 
 @media screen {
-    
+
 }
